@@ -1,0 +1,9 @@
+version: '3'
+services:
+  cmatrix:
+    image: ubuntu:latest
+    container_name: cmatrix_container
+    tty: true
+    command: /bin/bash -c "apt-get update && apt-get install -y cmatrix && cmatrix"
+
+
