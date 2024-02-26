@@ -94,30 +94,26 @@
      ![image-20240223231252329](./Imagen%20con%20Dockerfile.assets/image-20240223231252329.png)
 
 5. Captura de pantalla y documento donde se vea la bajada de la imagen - por parte de otra persona del
-  grupo - y la creación de un contenedor.
+     grupo - y la creación de un contenedor.
 
-  
-
-6. Captura de pantalla y documento donde se ve el acceso al navegador con el sitio servido
-
-1. **Bajada de la imagen y creación de un contenedor**:
-
-   - Otro miembro del grupo puede descargar la imagen con:
+     Para ello, creamos un usuario:
 
      ```bash
-     docker pull <tu_usuario_dockerhub>/my-php-web
+     sudo adduser olai sudo
+     docker pull juliangc24/my-php-web
      ```
 
-     
+     ![image-20240226095118085](./Imagen%20con%20Dockerfile.assets/image-20240226095118085.png)
 
-   - Luego, pueden crear un contenedor con:
+```
+sudo docker run -d --name web2 -p 8001:80 juliangc24/my-php-web
+sudo docker ps
+```
 
-     ```bash
-     docker run -d --name web2 -p 8001:80 <tu_usuario_dockerhub>/my-php-web
-     ```
+![image-20240226095326403](./Imagen%20con%20Dockerfile.assets/image-20240226095326403.png)
 
-     
 
-2. **Acceso al navegador con el sitio servido**:
 
-   - Ahora, pueden acceder al sitio web desde el navegador utilizando la dirección `http://localhost:8001`.
+6. Captura de pantalla y documento donde se ve el acceso al navegador con el sitio servidor
+
+   ![image-20240226095540630](./Imagen%20con%20Dockerfile.assets/image-20240226095540630.png)
