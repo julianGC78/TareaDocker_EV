@@ -17,3 +17,27 @@ En cuanto a los plazos de entrega nos hemos puesto las siguientes fechas:
 
 Por último adjuntamos varias capturas de los insights de GitHub:
 
+Issues:
+![image-20240228165703472](./README.assets/image-20240228165703472.png)
+
+
+
+Commits:
+
+![image-20240228165819312](./README.assets/image-20240228165819312.png)
+
+![image-20240228165846895](./README.assets/image-20240228165846895.png)
+
+
+
+Contributors:
+![image-20240228165959061](./README.assets/image-20240228165959061.png)
+
+Network:
+
+![image-20240228170053781](./README.assets/image-20240228170053781.png)
+
+
+
+Estructuración del proyecto:
+![image-20240228170145190](./README.assets/image-20240228170145190.png)
